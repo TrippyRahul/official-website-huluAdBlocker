@@ -19,12 +19,10 @@ const Footer = () => {
       <div className={styles.container}>
         <h2>Spotify Ad Blocker</h2>
         <p>
-          Listen to your favorite music without any ads with spotify ad
-          blockerListen to your favorite music without any ads with spotify ad
-          blocker
+          Listen to your favorite music without any ads with spotify ad blocker
         </p>
 
-        <Button text="Install Extension"/>
+        <Button text="Install Extension" />
 
         <hr className={styles.line} style={{ color: "gray" }} />
 
