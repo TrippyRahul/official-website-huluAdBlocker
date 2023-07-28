@@ -10,7 +10,7 @@ export const metadata = {
   title:
     "Listen to your favorite music without any ads with spotify ad blocker",
   description:
-    "Enjoy a vast library of music, podcasts, and other audio content with Spotify. Download the Spotify ad blocker for Google Chrome to block ads and enjoy uninterrupted listening",
+    "Discover a world of music and podcasts with Spotify. Download our ad blocker for Chrome to enjoy uninterrupted listening.",
 };
 
 export default function RootLayout({ children }) {
