@@ -42,7 +42,7 @@ const Accordian = () => {
   };
 
   return (
-    <div className={styles.accordian} id="accordian">
+    <div className={styles.accordian} id="frequentely-asked-questions">
       {/* <Image
         src="/accor-bg.svg"
         width={1817.37}
@@ -77,7 +77,6 @@ const Accordian = () => {
         <Button
           text="GET TRUE ADBLOCKER NOW"
           width="100%"
-          bg="rgb(29,185,84)"
         />
       </div>
     </div>

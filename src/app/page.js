@@ -12,7 +12,7 @@ export default function Home() {
       <Use />
       <InstallYoutubeAdsBlocker />
       <Functionality />
-      <Install />
+      {/* <Install /> */}
       {/* <HowToAdd /> */}
       <Accordian />
       <AboutYoutubeAdBlocker />

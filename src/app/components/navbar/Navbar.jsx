@@ -13,22 +13,23 @@ const Navbar = () => {
         <ul className={styles.links}>
           <li className={styles.logo}>
             <Link href="/">
-              <Image
-                src="./navbar-logo.svg"
-                alt="youtube-ad-blocker-logo"
-                width={96}
-                height={54}
-              />
+              <div className={styles["image-container"]}>
+                <Image
+                  src="/logo.png"
+                  alt="youtube-ad-blocker-logo"
+                  // fill={true}
+                  width={150}
+                  height={150}
+                  className={styles.image}
+                />
+              </div>
             </Link>
           </li>
           <li className={styles.link}>
-            <Link href="/">Spotify Ad Blocker</Link>
+            <Link href="#about">ABOUT </Link>
           </li>
           <li className={styles.link}>
-            <Link href="/about">ABOUT </Link>
-          </li>
-          <li className={styles.link}>
-            <Link href="#accordian">FAQ</Link>
+            <Link href="#frequentely-asked-questions">FAQ</Link>
           </li>
         </ul>
 
@@ -47,22 +48,23 @@ const Navbar = () => {
           <div className={styles.logo}>
             <Link href="/">
               <Image
-                src="./navbar-logo.svg"
+                src="/logo.png"
                 alt="youtube-ad-blocker-logo"
-                width={96}
-                height={54}
+                width={100}
+                height={50}
+                style={{ mixBlendMode: "screen" }}
               />
             </Link>
           </div>
           <ul className={styles.links}>
             <li className={styles.link}>
-              <Link href="/youtube-ad-blocker">YOUTUBE AD BLOCKER</Link>
+              <Link href="/">HOME </Link>
             </li>
             <li className={styles.link}>
-              <Link href="/about">ABOUT YOUTUBE AD BLOCKER</Link>
+              <Link href="#about">ABOUT </Link>
             </li>
             <li className={styles.link}>
-              <Link href="/frequently-asked-questions">FAQ</Link>
+              <Link href="#frequentely-asked-questions">FAQ</Link>
             </li>
           </ul>
         </div>

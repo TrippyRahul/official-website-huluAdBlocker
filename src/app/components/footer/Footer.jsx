@@ -24,7 +24,7 @@ const Footer = () => {
           blocker
         </p>
 
-        <Button text="Install Extension" bg="rgb(29,185,84)"/>
+        <Button text="Install Extension"/>
 
         <hr className={styles.line} style={{ color: "gray" }} />
 

@@ -83,22 +83,22 @@ const Use = () => {
                 <p>
                   It works both on Google and firefox. When you visit on Spotify
                   page on Chrome and firefox,{" "}
-                  <span>best adblock for firefox</span> scans the webpage that
+                  <span> best adblock for firefox </span> scans the webpage that
                   you are using and find the parts of the page that have ads to
-                  block.<span> Adblock extension firefox</span>stops those ads
-                  from loading or appearing on the page. This means you can
-                  listen to music on <span>spotify without ads.</span>
+                  block. <span> Adblock extension firefox </span> stops those
+                  ads from loading or appearing on the page. This means you can
+                  listen to music on <span> spotify without ads. </span>
                 </p>
               </div>
               <div className="right">
                 <h2>Enjoy the freedom with the best Chrome ad blocker</h2>
                 <p>
                   This extension for firefox and Chrome improves your Spotify
-                  experience by<span> Spotify no ads</span>, speeding up page
+                  experience by<span> Spotify no ads </span>, speeding up page
                   loading, and providing protection from malware and adware.{" "}
-                  <span>Ad free spotify</span>
+                  <span> Ad free spotify </span>
                   ensures a safer browsing experience on
-                  <span> Spotify without ads.</span>
+                  <span> Spotify without ads. </span>
                 </p>
               </div>
             </div>

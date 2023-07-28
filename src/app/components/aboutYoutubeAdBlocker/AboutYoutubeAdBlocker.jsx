@@ -5,7 +5,7 @@ import Button from "../Button/Button";
 
 const AboutYoutubeAdBlocker = () => {
   return (
-    <div className="aboutYoutubeAdBlocker">
+    <div className="aboutYoutubeAdBlocker" id="about">
       {/* <Image
         src="/howToadd-bg.svg"
         width={2091.29}
@@ -35,7 +35,7 @@ const AboutYoutubeAdBlocker = () => {
             <Image src="/about.svg" fill alt="about-logo" className="image" />
           </div>
         </div>
-        <Button text="Install Extention" width="100%" bg="rgb(29,185,84)"/>
+        <Button text="Install Extention" width="100%" />
       </div>
     </div>
   );

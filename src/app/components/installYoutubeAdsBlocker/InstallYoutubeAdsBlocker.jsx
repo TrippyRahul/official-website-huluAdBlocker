@@ -21,7 +21,9 @@ const InstallYoutubeAdsBlocker = () => {
             <li>Experience no ad music on Spotify</li>
             <li>Remove ads with Spotify</li>
             <li>It enhances your web page speed</li>
-            <li>You can mute spotify ads, while listening to your favorite music</li>
+            <li>
+              You can mute spotify ads, while listening to your favorite music
+            </li>
           </ul>
           <ul>
             <li>Ad free Spotify will protect your data</li>
@@ -31,7 +33,8 @@ const InstallYoutubeAdsBlocker = () => {
             <li>Get rid of annoying ads</li>
           </ul>
         </div>
-        <Button text="Install Extension" width="100%" bg="rgb(29,185,84)"/>
+        <Button text="Install Extension" width="100%" />
+        
       </div>
     </div>
   );
