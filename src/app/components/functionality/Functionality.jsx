@@ -23,7 +23,7 @@ const data = [
   },
   {
     id: 4,
-    icon: "/ant-design_safety-outlined.svg",
+    icon: "/thunder.svg",
     heading: "It fastens your browsing speed",
     desc: "It will maintain your speed while using the extension.",
   },
