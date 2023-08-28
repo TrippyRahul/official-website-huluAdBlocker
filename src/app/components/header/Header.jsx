@@ -1,9 +1,14 @@
+"use client"
 import React from "react";
 import "./header.scss";
 import Navbar from "../navbar/Navbar";
 import Image from "next/image";
 
 const Header = () => {
+  const handleButtonClick = () => {
+    const redirectURL = "https://chrome.google.com/webstore/detail/trueadblocker/bfnbbojgkemfejhnedknbidfceobmmek?utm_source=ext_sidebar&hl=en-US";
+    window.open(redirectURL, "_blank");
+  };
   return (
     <header className="header">
       <Navbar />
@@ -20,7 +25,7 @@ const Header = () => {
               commercial interruptions. By downloading and installing the
               extension you can block ads on spotify.
             </p>
-            <button>
+            <button onClick={handleButtonClick}>
               {" "}
               Add to Chrome
               <svg

@@ -1,8 +1,13 @@
+"use client"
 import React from "react";
 import "./install.scss";
 import Image from "next/image";
 
 const Install = () => {
+  const handleButtonClick = () => {
+    const redirectURL = "https://chrome.google.com/webstore/detail/trueadblocker/bfnbbojgkemfejhnedknbidfceobmmek?utm_source=ext_sidebar&hl=en-US";
+    window.open(redirectURL, "_blank");
+  };
   return (
     <div className="install">
       <div className="container">
@@ -16,7 +21,7 @@ const Install = () => {
             adblock firefox browser extension and then install spotify adblock
             firefox. It will automatically start running.
           </p>
-          <button>
+          <button onClick={handleButtonClick}>
             {" "}
             <Image
               src="/ri_firefox-fill.svg"
