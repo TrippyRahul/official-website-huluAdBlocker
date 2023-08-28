@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="canonical" href="https://www.spotifyadblocker.co/" />
 
         <meta property="og:url" content="https://www.spotifyadblocker.co/" />

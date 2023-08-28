@@ -17,32 +17,28 @@
         height: 100%;
         
         gap: 4rem;
-        
-        .logo{
-            
-            height: 100%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
 
 
+        .image-container {
 
-            .image {
-                // object-fit: contain;
-                width: 100% !important;
-                height: 100%;
-                // position: relative !important;
-                // height: unset !important;
-
-                mix-blend-mode: screen;
+            width: 6rem;
+          
+            > div {
+              position: unset !important;
             }
-
-        }
+          
+            .image {
+              object-fit: contain;
+              width: 100% !important;
+              position: relative !important;
+              height: unset !important;
+            }
+          }
+          
 
         .link{
-            padding-top: 2rem;
+            // padding-top: 2rem;
             font-size: 2rem;
-            line-height: 1.7rem;
             letter-spacing: 0em;
             text-align: left;
             text-transform: uppercase;

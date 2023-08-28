@@ -15,11 +15,11 @@ const Navbar = () => {
             <Link href="/">
               <div className={styles["image-container"]}>
                 <Image
-                  src="/logo.png"
-                  alt="youtube-ad-blocker-logo"
-                  // fill={true}
-                  width={150}
-                  height={150}
+                  src="/logo.svg"
+                  alt="ad-blocker-logo"
+                  fill={true}
+                  // width={20}
+                  // height={20}
                   className={styles.image}
                 />
               </div>
@@ -48,7 +48,7 @@ const Navbar = () => {
           <div className={styles.logo}>
             <Link href="/">
               <Image
-                src="/logo.png"
+                src="/logo.svg"
                 alt="youtube-ad-blocker-logo"
                 width={100}
                 height={50}
