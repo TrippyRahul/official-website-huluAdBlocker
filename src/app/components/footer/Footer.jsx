@@ -29,8 +29,12 @@ const Footer = () => {
         <div className={styles.content}>
           <div className={styles["popular-searches"]}>
             <p>
-              <span>Popular searches:</span> block spotify ads, spotify no ads
-              pc, spotify ads manager, advertising on spotify, add stop
+              <span>Popular searches:</span>{" "}
+              <a href="https://www.trueadblocker.net/" target="_blank">
+                trueadblocker{" "}
+              </a>{" "}
+              , block spotify ads, spotify no ads pc, spotify ads manager,
+              advertising on spotify, add stop
             </p>
           </div>
           <ul>
