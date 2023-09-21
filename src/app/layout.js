@@ -19,6 +19,10 @@ export default function RootLayout({ children }) {
       <head>
         <link rel="icon" type="image/x-icon" href="/logo.svg" />
         <link rel="canonical" href="https://www.spotifyadblocker.co/" />
+        <meta
+          name="google-site-verification"
+          content="Z3aFOMonL3_cMNCCC6YT35q4Wmto0tAxIZD2NZkBUoI"
+        />
 
         <meta property="og:url" content="https://www.spotifyadblocker.co/" />
         <meta property="og:type" content="website" />
