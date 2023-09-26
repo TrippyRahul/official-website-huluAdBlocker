@@ -1,0 +1,88 @@
+.contact{
+    padding: 10rem 0rem;
+    position: relative;
+    overflow: hidden;
+    color: #FFFFFF;
+
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 4rem;
+        
+
+        h2{
+          
+            font-size: 5.8rem;
+            font-weight: 600;
+            line-height: 5.9rem;
+            letter-spacing: 0em;
+            text-align: center;
+            text-transform: uppercase;
+
+        }
+
+        .form{
+            // border: 1px solid gray;
+            width: 100%;
+          
+            border-radius: 1rem;
+
+            padding: 4rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+
+            .item{
+                // border: 1px solid red;
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: center;
+                width: 100%;
+                gap: .5rem;
+
+                label{
+                    font-size: 22px;
+                }
+                
+                input,textarea{
+                    width: 100%;
+                    padding: 1rem;
+                    border: 1px solid rgb(128, 128, 128);
+                    background: none;
+                    border-radius: 1rem;
+                    outline: none;
+                    color: #FFFFFF;
+
+                   
+                }
+
+                button{
+                    padding: 1rem 2rem;
+                    font-size: 1.8rem;
+                    background: rgb(29,185,84);
+                    border: none;
+                    border-radius: 1rem;
+                    color:#FFFFFF;
+                    cursor: pointer;
+                
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1rem;
+                    transition: all .2s ease-in-out;
+                
+                    &:hover{
+                       background: none;
+                       color: white;
+                       border: 2px solid white;
+                    }
+                }
+            }
+        }
+    }
+}

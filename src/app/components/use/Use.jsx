@@ -5,20 +5,6 @@ import Image from "next/image";
 const Use = () => {
   return (
     <div className="use">
-      {/* <Image
-        src="./use-bg-1.svg"
-        alt="youtube-logo"
-        width={1817.37}
-        height={1045.26}
-        className="bg1"
-      />
-      <Image
-        src="./use-bg-2.svg"
-        alt="youtube-logo"
-        width={1817.37}
-        height={1045.26}
-        className="bg2"
-      /> */}
       <div className="container">
         <div className="top">
           <div className="left">
@@ -55,12 +41,7 @@ const Use = () => {
               </p>
             </div>
             <div className="right">
-              <Image
-                src="./youtube-logo.svg"
-                alt="youtube-logo"
-                fill
-                className="image"
-              />
+              <Image src="/2.png" alt="youtube-logo" fill className="image" />
             </div>
           </div>
           <div className="bottom">

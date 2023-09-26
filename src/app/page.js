@@ -12,8 +12,6 @@ export default function Home() {
       <Use />
       <InstallYoutubeAdsBlocker />
       <Functionality />
-      {/* <Install /> */}
-      {/* <HowToAdd /> */}
       <Accordian />
       <AboutYoutubeAdBlocker />
     </main>

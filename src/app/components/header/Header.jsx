@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import "./header.scss";
 import Navbar from "../navbar/Navbar";
@@ -6,7 +6,8 @@ import Image from "next/image";
 
 const Header = () => {
   const handleButtonClick = () => {
-    const redirectURL = "https://chrome.google.com/webstore/detail/trueadblocker/bfnbbojgkemfejhnedknbidfceobmmek?utm_source=ext_sidebar&hl=en-US";
+    const redirectURL =
+      "https://chrome.google.com/webstore/detail/trueadblocker/bfnbbojgkemfejhnedknbidfceobmmek?utm_source=ext_sidebar&hl=en-US";
     window.open(redirectURL, "_blank");
   };
   return (
@@ -38,12 +39,7 @@ const Header = () => {
             </button>
           </div>
           <div className="right">
-            <Image
-              src="./header-main.svg"
-              alt="header-main"
-              fill
-              className="image"
-            />
+            <Image src="/1.png" alt="header-main" fill className="image" />
           </div>
         </div>
       </section>
