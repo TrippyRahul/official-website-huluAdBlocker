@@ -6,13 +6,6 @@ import Button from "../Button/Button";
 const InstallYoutubeAdsBlocker = () => {
   return (
     <div className="installYoutubeAdsBlocker">
-      {/* <Image
-        src="/install-bg.svg"
-        width={1817.37}
-        height={1045.26}
-        className="bg"
-        alt="install-bg"
-      /> */}
       <div className="container">
         <h2>Enjoy unlimited music in adblocker firefox and Chrome</h2>
 
@@ -34,7 +27,6 @@ const InstallYoutubeAdsBlocker = () => {
           </ul>
         </div>
         <Button text="Install Extension" width="100%" />
-        
       </div>
     </div>
   );
