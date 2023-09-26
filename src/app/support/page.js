@@ -45,7 +45,7 @@ const Support = () => {
               <input
                 id="email"
                 type="email"
-                placeholder="Enter your name"
+                placeholder="Enter your email"
                 name="email"
                 required
               />
