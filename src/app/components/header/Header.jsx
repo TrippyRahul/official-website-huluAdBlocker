@@ -7,7 +7,7 @@ import Image from "next/image";
 const Header = () => {
   const handleButtonClick = () => {
     const redirectURL =
-      "https://chrome.google.com/webstore/detail/trueadblocker/bfnbbojgkemfejhnedknbidfceobmmek?utm_source=ext_sidebar&hl=en-US";
+      "https://chrome.google.com/webstore/detail/spotify-adblocker/jjkmjkmaaaplnncabkhoeonloebnmjgd?utm_source=ext_sidebar&hl=en-US";
     window.open(redirectURL, "_blank");
   };
   return (
