@@ -3,6 +3,7 @@ import Footer from "./components/footer/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 import Schema from "./Schema";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -59,6 +60,18 @@ export default function RootLayout({ children }) {
         <meta
           name="twitter:image"
           content="https://www.spotifyadblocker.co/favicon.png"
+        />
+        <Script src="https://www.googletagmanager.com/gtag/js?id=G-2VZCHWMF6M" />
+        <Script
+          id="gtm-script"
+          dangerouslySetInnerHTML={{
+            __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-2VZCHWMF6M');
+          `,
+          }}
         />
       </head>
       <body className={inter.className}>
